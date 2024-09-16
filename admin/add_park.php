@@ -89,9 +89,9 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
 				$result=mysqli_query($conn,$sql);
 				if($result){
 					$showAlert=true;
-                    $f_name = 'C:\xampp\htdocs\TheExciteHub/'.$file_name .'.php';
+                    $f_name = '../'.$file_name .'.php';
                     $fp = fopen($f_name, 'w');
-                    $content = file_get_contents('C:\xampp\htdocs\TheExciteHub\park_layout.php');
+                    $content = file_get_contents('../park_layout.php');
                     fwrite($fp, $content);
                     fclose($fp);
 				}
