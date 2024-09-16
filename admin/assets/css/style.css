@@ -1,0 +1,61 @@
+.card-round {
+    background: #1a2035!important;
+  }
+  .card-title{
+    color: #ffff!important;
+}
+.card {
+  background: #1a2035!important;
+}
+.card-action{
+  margin-top: 20px;
+}
+label{
+  color: #b9babf!important;
+}
+.form-control{
+  background: #1a2035!important;
+  color: #ffff!important;
+  border-width: 1px ;
+}
+.table>tbody>tr>td, 
+.table>tbody>tr>th {
+  background: #1a2035!important;
+  color: #ffff!important;
+}
+.table>thead>tr>th{
+  background: #1a2028!important;
+  color: #dad8d8!important;
+
+}
+.username{
+  color: #ffff!important;
+}
+.btn-clean{
+  color: #ffff!important;
+}
+.btn-success{
+    background: #0c0f1a!important;
+    border-color: #0c0f1a!important;
+    color: #ffff!important;
+}
+.btn-success:hover{
+    background: #00074e!important;
+    border-color: #00074e!important;
+}
+.delete{
+    background: #1a2035!important;
+    border-color: #1a2035!important;
+    color: #ffff!important;
+}
+.delete:hover{
+    background: #00074e!important;
+    border-color: #00074e!important;
+}
+.modal-header{
+    background: #1a2035!important;
+    color: #ffff!important;
+}
+.form{
+  background: #1a2035!important;
+}
