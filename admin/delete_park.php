@@ -17,7 +17,7 @@ if (isset($_GET['id'])) {
      if ($delete) {
         if (isset($_GET['file-name'])){
             $file_name = $_GET['file-name'];
-            $file_path = 'C:\xampp\htdocs\TheExciteHub/'.$file_name .'.php';
+            $file_path = '../'.$file_name .'.php';
             if (file_exists($file_path)) {
                 unlink($file_path);
             }
